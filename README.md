@@ -1,5 +1,5 @@
 # Project Jumper
-###### python, bash script, command line
+###### python, bash script, virtualenv
 
 Ever felt the need to move around multiple python projects and got tired of activating Virtual Environments ?
 These scripts let you jump from one project to another while activating it's virtualenv as you go.
