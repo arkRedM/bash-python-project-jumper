@@ -3,10 +3,8 @@
 # jumping to your work folder
 function goto_work()
 {
-    # goto home
-	cd
-	# path to your work directory from home
-	cd Documents/work
+    # this function is created by setup script
+    change_to_the_formidable_work_folder
 }
 
 # make a folder name vEnv inside your work directory
@@ -19,7 +17,7 @@ function make_vEnv_folder_if_not_exists(){
 function make_env()
 {
     # make vEnv folder inside work folder and change to the same
-    make_vEnv_folder
+    make_vEnv_folder_if_not_exists
 	cd vEnv
 
 	# make a python virtualenv with same name as the project's name
@@ -38,7 +36,8 @@ function make_env()
 	goto_work
 	# make environment
 	make_env $1
-	# jump to folder and activate it.
+
+    # jump to folder and activate it.
 	workon $1
 } || {
 	echo "Check Code and retry"
