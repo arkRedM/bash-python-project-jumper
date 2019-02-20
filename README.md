@@ -32,7 +32,7 @@ $ workon my_project
 
 
 ### Step 1
-Clone (Duh!) or Download zip and extract it.
+Clone this repo (Duh!) or Download zip and extract it.
 ````
 git clone https://github.com/arkRedM/bash-python-project-jumper.git
 ````
