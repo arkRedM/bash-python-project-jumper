@@ -30,7 +30,12 @@ function add_alias_to_workon_and_makeEnv_in_bashrc(){
 
 
     source ~/.bashrc
-    echo "Success!"
+    echo "Success"
+    echo "Make Virtual Environment using
+    makeEnv project_folder"
+    echo "Note that project folder must contain requirements.txt file"
+    echo "Jump into a project using
+    workon project_folder"
 }
 
 # pass the work path relative to home('home' is generally where your Documents, Videos etc. folders reside)

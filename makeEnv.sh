@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+target=${1%/}
+
 # jumping to your work folder
 function goto_work()
 {
@@ -21,21 +23,22 @@ function make_env()
 	cd vEnv
 
 	# make a python virtualenv with same name as the project's name
-	python3 -m virtualenv $1
+	python3 -m virtualenv $target
 
 	# activate the virtualenv
-	source $1/bin/activate || source $1bin/activate
+    source $target/bin/activate 2>/dev/null
 
 	# install the requirements
 	cd ..
-	pip3 install -r $1/requirements.txt
+    pip3 install -r $target/requirements.txt 2>/dev/null
+
 }
 
 {
     # change to work
 	goto_work
 	# make environment
-	make_env $1
+	make_env
 
     # jump to folder and activate it.
 	workon $1
