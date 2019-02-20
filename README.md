@@ -68,7 +68,7 @@ You can make this with as many projects as you like as long as they have differe
 makeEnv example_project_2
 ```
 ### Finally
-You can jump from any project from terminal and activate it's virtual env now by typing
+You can jump from any project from terminal and activate it's virtual env now by typing 
 ```
 workon example_project_1
 ```
