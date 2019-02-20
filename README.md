@@ -2,7 +2,6 @@
 ###### python, bash script, command line
 
 Ever felt the need to move around multiple python projects and got tired of activating Virtual Environments ?
-
 These scripts let you jump from one project to another while activating it's virtualenv as you go.
 
 For making a virtual env
@@ -85,4 +84,4 @@ There are many things that can be improved here.
 2. Error catching and better debugging
 3. Down the line makeEnv and workon should be able to work from any folder regardless of where the project might be.
 
-PR's are welcome ʕ•ᴥ•ʔ
+PR's are most welcome ʕ•ᴥ•ʔ
