@@ -1,4 +1,7 @@
 # Project Jumper
+
+[![Join the chat at https://gitter.im/bash-python-project-jumper/community](https://badges.gitter.im/bash-python-project-jumper/community.svg)](https://gitter.im/bash-python-project-jumper/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ###### python, bash script, virtualenv
 
 Ever felt the need to move around multiple python projects and got tired of activating Virtual Environments ?
